@@ -12,3 +12,5 @@ https://joshuaramat.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️  by Joshua Ramat
+
+### ©️2019 Run Buddy, Inc
