@@ -94,6 +94,7 @@ section {
 .hero-cta h2 {
 width: 40%;
 margin: 3.5%;
+color: #fce138;
 }
 
 .hero-form {
@@ -101,6 +102,8 @@ margin: 3.5%;
     background-color: #fce138;
     padding: 20px;
     color: #024e76;
+    width: 40%;
+    margin: 3.5%;
 }
 
 .hero-form h3 {
@@ -274,17 +277,21 @@ margin: 3.5%;
     color: #fce138;
 }
 
-.contact-info iframe {
-    width: 400px;
-    height: 400px;
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
+.contact-info > * {
+    flex: 1;
+    margin: 15px;
+}
+
+.contact-info iframe {
+    
+}
 .contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 30px 0 0 60px;
     color: white;
 }
 
@@ -297,8 +304,30 @@ margin: 3.5%;
 .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: 1px solid #024376;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: #fce138;
+    color: #024e76;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
 }
 
 .contact-info a {
